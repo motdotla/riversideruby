@@ -2,5 +2,5 @@ require 'rubygems'
 require 'sinatra'
 
 get '/' do
-  "Hello, Heroku!"
+  "Riverside Ruby lives on heroku!"
 end
