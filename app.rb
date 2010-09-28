@@ -1,5 +1,8 @@
 require 'rubygems'
 require 'sinatra'
-get '/'
-  "Hello, Heroku!"
+
+class App < Sinatra::Application
+  get '/' do
+    "Hello, Heroku!"
+  end
 end
