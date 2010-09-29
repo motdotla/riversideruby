@@ -1,6 +1,7 @@
 require 'rubygems'
 require 'sinatra'
+require 'haml'
 
 get '/' do
-  "Riverside Ruby lives on heroku!"
+  haml :index
 end
