@@ -1,0 +1,40 @@
+body {
+  background: #eee;
+  font-size: 16px;
+}
+#content {
+  margin-top: 40px;
+}
+#header {
+}
+#header #logo {
+}
+#group_msg {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 18px;
+}
+#group_msg strong {
+  color: #CA0D17;
+}
+
+
+/* page_content */
+#page_content {
+  
+}
+#page_content h2 {
+  font-size: 31px;
+  color: #999;
+  padding: 0;
+  margin: 0;
+  font-weight: normal;
+  border-top: 1px solid #999;
+  padding-top: 10px;
+}
+#page_content h2 span {
+  font-size: 16px;
+}
+#page_content h2 a {
+  color: #999;
+}
