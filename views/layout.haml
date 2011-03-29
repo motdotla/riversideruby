@@ -28,6 +28,12 @@
             %strong
               Open to all skill levels,
             just show up and join the fun!
+        #next_meeting
+          %h1
+            Next Meeting
+            &rarr;
+            %span
+              = @rmeetup.time.strftime("%B %d at %I:%M%p")
         #page_content    
           = yield
       .grid_1 &nbsp;

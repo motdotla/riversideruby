@@ -17,6 +17,14 @@ body {
 #group_msg strong {
   color: #CA0D17;
 }
+#next_meeting {
+  font-size: 12px;
+  font-weight: bold;
+}
+#next_meeting span {
+  font-size: 40px;
+  color: #CA0D17;
+}
 
 
 /* page_content */
