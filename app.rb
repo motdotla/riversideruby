@@ -12,6 +12,6 @@ get '/' do
   haml :index
 end
 
-get '/users' do
-  haml :users
+get '/members' do
+  haml :members
 end

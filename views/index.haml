@@ -1,3 +1,16 @@
+#group_msg
+  %p 
+    Share ideas, code, and your love for Ruby. Show off your latest project, gems and plugins, or something you learned. 
+    %strong
+      Open to all skill levels,
+    just show up and join the fun!
+#next_meeting
+  %h1
+    Next Meeting
+    &rarr;
+    %span
+      = @rmeetup.time.strftime("%B %d at %I:%M%p")
+
 %h2 
   When
   %span
@@ -31,7 +44,7 @@
 %h2 IRC
 
 %p 
-  Hang out and chat on irc with us. irc.linkline.com #riversideruby
+  Hang out and chat on irc with <a href="/members">us</a>. irc.linkline.com #riversideruby
     
 %h2 Other Links  
 %ul
